@@ -23,21 +23,27 @@ urls = [
     'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity',
     'https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt',
     'https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_BASE64.txt',
-    'https://www.v2nodes.com/subscriptions/country/all/?key=3890BB040E05763'
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt',
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_2txt',
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_3.txt',
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_4.txt',
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt`,
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_2.txt`,
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_3.txt`,
-    `https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_4.txt`,
-    `https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity',
-    `https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_ss_iran.txt',
-    `https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium-V2rayCollector-ss.txt',
-    `https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_trojan_iran.txt',
-    `https://raw.githubusercontent.com/10ium/V2ray-Config/main/Splitted-By-Protocol/ss.txt',
-    `https://raw.githubusercontent.com/10ium/VpnClashFaCollector/refs/heads/main/sub/all/ss_base64.txt`,
+    'https://www.v2nodes.com/subscriptions/country/all/?key=3890BB040E05763',
+# ============================================================
+# لیست لینک‌های جمع‌کننده کانفیگ
+# ============================================================
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_2txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_3.txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_4.txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_2.txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_3.txt',
+    'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_4.txt',
+    'https://raw.githubusercontent.com/10ium/V2RayAggregator/refs/heads/master/Eternity',
+    'https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_ss_iran.txt',
+    'https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium-V2rayCollector-ss.txt',
+    'https://raw.githubusercontent.com/10ium/base64-encoder/main/encoded/10ium_trojan_iran.txt',
+    'https://raw.githubusercontent.com/10ium/V2ray-Config/main/Splitted-By-Protocol/ss.txt',
+    'https://raw.githubusercontent.com/10ium/VpnClashFaCollector/refs/heads/main/sub/all/ss_base64.txt',
+# ============================================================
+# لیست لینک‌های جمع‌کننده کانفیگ
+# ============================================================
     'https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_base64_Sub.txt',
     'https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt',
     'https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt',
