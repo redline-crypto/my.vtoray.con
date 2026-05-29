@@ -1,1 +1,1 @@
-# my.vtoray.con
+# لیست کانفیگ های VtoRay
