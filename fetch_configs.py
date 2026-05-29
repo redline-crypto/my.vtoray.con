@@ -13,7 +13,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # ============================================================
-# لیست لینک‌های جمع‌کننده کانفیگ (نسخه قدیمی - قبل از اضافه کردن لینک‌های 10ium و giromo)
+# لیست لینک‌های جمع‌کننده کانفیگ
 # ============================================================
 urls = [
     'https://github.com/ALIILAPRO/v2rayNG-Config/raw/refs/heads/main/server.txt',
