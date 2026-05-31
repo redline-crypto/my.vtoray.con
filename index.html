@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فایل‌های کانفیگ V2Ray | به‌روزرسانی خودکار</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #0d0d1a 0%, #1a1a3e 50%, #0a0a20 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 1100px; margin: auto; }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .header .icon { font-size: 70px; margin-bottom: 15px; }
+        .header h1 {
+            font-size: 2.8em;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .header p { color: #aaa; font-size: 1.2em; }
+        .badge {
+            display: inline-block;
+            background: rgba(0, 198, 255, 0.15);
+            color: #00c6ff;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 8px;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Card */
+        .card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0,198,255,0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .card:hover::before { opacity: 1; }
+
+        .card-icon {
+            font-size: 45px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .card p {
+            color: #b0b0b0;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.95em;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0, 114, 255, 0.4);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .footer a { color: #00c6ff; text-decoration: none; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .header h1 { font-size: 2em; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="icon">🌐</div>
+            <h1>فایل‌های کانفیگ V2Ray</h1>
+            <p>به‌روزرسانی خودکار هر ۳ ساعت | آمادهٔ استفاده در V2RayNG و نرم‌افزارهای سازگار</p>
+            <div style="margin-top: 15px;">
+                <span class="badge">🔄 به‌روزرسانی خودکار</span>
+                <span class="badge">🛡️ حذف تکراری‌ها</span>
+                <span class="badge">📡 ۷ پروتکل مختلف</span>
+            </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid">
+            <!-- Vmess -->
+            <div class="card">
+                <span class="card-icon">📨</span>
+                <h3>Vmess</h3>
+                <p>پروتکل اصلی V2Ray با قابلیت رمزنگاری پیشرفته و دور زدن محدودیت‌ها. مناسب برای استفاده عمومی.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/vmess.txt" class="btn" download>📥 دانلود کانفیگ Vmess</a>
+            </div>
+
+            <!-- Vless -->
+            <div class="card">
+                <span class="card-icon">📨</span>
+                <h3>Vless</h3>
+                <p>نسخهٔ سبک‌تر Vmess بدون رمزنگاری اضافه. مناسب برای ترکیب با Reality و XTLS.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/vless.txt" class="btn" download>📥 دانلود کانفیگ Vless</a>
+            </div>
+
+            <!-- Reality -->
+            <div class="card">
+                <span class="card-icon">🟣</span>
+                <h3>Reality</h3>
+                <p>پروتکل جدید با قابلیت استتار ترافیک. بهترین گزینه برای شبکه‌های با فیلترینگ پیشرفته.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/reality.txt" class="btn" download>📥 دانلود کانفیگ Reality</a>
+            </div>
+
+            <!-- Trojan -->
+            <div class="card">
+                <span class="card-icon">🐎</span>
+                <h3>Trojan</h3>
+                <p>پروتکل مبتنی بر TLS که ترافیک را شبیه HTTPS معمولی می‌کند. شناسایی آن بسیار دشوار است.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/trojan.txt" class="btn" download>📥 دانلود کانفیگ Trojan</a>
+            </div>
+
+            <!-- Shadowsocks -->
+            <div class="card">
+                <span class="card-icon">🕶️</span>
+                <h3>Shadowsocks</h3>
+                <p>پروتکل پراکسی سریع و ساده با رمزنگاری AES. مصرف کم منابع و سرعت بالا.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/ss.txt" class="btn" download>📥 دانلود کانفیگ Shadowsocks</a>
+            </div>
+
+            <!-- Hysteria2 -->
+            <div class="card">
+                <span class="card-icon">⚡</span>
+                <h3>Hysteria2</h3>
+                <p>پروتکل فوق‌العاده سریع بر پایه QUIC. مناسب برای ترافیک سنگین و گیمینگ.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/hysteria2.txt" class="btn" download>📥 دانلود کانفیگ Hysteria2</a>
+            </div>
+
+            <!-- Wireguard -->
+            <div class="card">
+                <span class="card-icon">🧅</span>
+                <h3>Wireguard</h3>
+                <p>پروتکل VPN مدرن با رمزنگاری بسیار قوی و مصرف باتری کم. مناسب برای موبایل.</p>
+                <a href="https://raw.githubusercontent.com/KH-Danial/my.vtoray.con/main/wireguard.txt" class="btn" download>📥 دانلود کانفیگ Wireguard</a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>
+                📂 مخزن پروژه: 
+                <a href="https://github.com/KH-Danial/my.vtoray.con" target="_blank">github.com/KH-Danial/my.vtoray.con</a>
+                | 🕒 آخرین به‌روزرسانی خودکار توسط GitHub Actions
+            </p>
+        </div>
+    </div>
+</body>
+</html>
